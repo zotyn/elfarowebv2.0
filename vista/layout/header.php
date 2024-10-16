@@ -1,4 +1,4 @@
-<?php $url_base="http://localhost/El Faro Web/"?>
+<?php $url_base="https://zotyn.github.io/elfarowebv2.0/"?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
