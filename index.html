@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Faro</title>
-     <script>
-        // Redireccionar automáticamente a index.php
-        window.location.href = "index.php";
-    </script>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles.scss">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>El Faro</title>
+        <link rel="stylesheet" href="vista/css/styles.css">
+        <link rel="stylesheet" href="vista/css/styles.scss">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        
+    </head>
     
-</head>
 <body>
 
-    <!-- Sección superior de avisos -->
-    <div class="notification is-info is-marginless">
-        <a href="Boletin.html#suscripcion" class="has-text-weight-bold has-text-white">
-           <strong>NewsLetter:</strong> Suscríbete a nuestro reporte semanal de las noticias más relevantes.
-        </a>   
-    </div>
+    
 
 
    
@@ -44,8 +37,8 @@
             <div class="container is-flex is-flex-direction-column is-align-items-center">
             <!-- Logo arriba -->
             <div class="navbar-brand">
-                <a class="navbar-item" href="index.html">
-                <img src="EL FARO_transparent-.png" 
+                <a class="navbar-item" href="index.php">
+                <img src="vista/image/EL FARO_transparent-.png" 
                 alt="Logotipo de El Faro" 
                 class="is-fullwidth" 
                 style="max-height: 300px;">
@@ -64,9 +57,9 @@
     <nav class="tabs is-centered is-boxed is-mobile">
         <ul>
             <li class="is-active"><a href="#inicio">Inicio</a></li>
-            <li><a href="Deportes.html">Deporte</a></li>
-            <li><a href="negocios.html">Negocios</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="vista/deportes.php">Deporte</a></li>
+            <li><a href="vista/negocios.php">Negocios</a></li>
+            <li><a href="vista/contacto.php/#contacto">Contacto</a></li>
         </ul>
     </nav>
     
@@ -74,16 +67,16 @@
     <!-- Sección de artículos destacados -->
     <section class="section">
         <div class="container">
-            <h1 class="title"><a href="noticias.html"> Destacados</a></h1>
+            <h1 class="title"><a href="vista/noticias.php"> Destacados</a></h1>
             <div class="columns">
                 <div class="column is-two-thirds">
-                    <a href="noticias.html#generales1" class="block has-text-black has-text-weight-bold">
+                    <a href="vista/noticias.php/#generales1" class="block has-text-black has-text-weight-bold">
                         <article class="articulo-destacado">
                                 <h2 class="title">Fiestas Patrias </h2>
                                 <p>Las celebraciones se extienden desde el miércoles 18 al domingo 22 de septiembre...</p>
                                 <div>
                                     <figure class="image is-16by9">
-                                        <img src="fiestas.jpeg" alt="Fiestas Patrias">
+                                        <img src="vista/image/fiestas.jpeg" alt="Fiestas Patrias">
                                     </figure>
                                 </div>
                         </article>
@@ -91,18 +84,18 @@
                 </div>
                 <div class="column">
                     <h2 class="title is-5">Otros Artículos</h2>
-                    <a href="noticias.html#generales2" class="block has-text-black has-text-weight-bold">
+                    <a href="vista/noticias.php/#generales2" class="block has-text-black has-text-weight-bold">
                     <div class="articulo-miniatura">
                         <h3> Temblor en la capital</h3>
                         <p>Durante la presente jornada, se han registrado sismos de variada intensidad...</p>
-                        <img src="temblor.jpeg" alt="Claudio Bravo se retira" class="mt-4">
+                        <img src="vista/image/temblor.jpeg" alt="Claudio Bravo se retira" class="mt-4">
                     </div>
                     </a>
-                    <a href="noticias.html#generales3" class="block has-text-black has-text-weight-bold">
+                    <a href="vista/noticias.php/#generales3" class="block has-text-black has-text-weight-bold">
                     <div class="articulo-miniatura">
                         <h3>Patente</h3>
                         <p>Durante esta semana llega a su fin el plazo para pagar la última cuota del permiso...</p>
-                        <img src="patente.jpeg" alt="Claudio Bravo se retira" class="mt-4">
+                        <img src="vista/image/patente.jpeg" alt="Claudio Bravo se retira" class="mt-4">
                     </div>
                     </a>
                 </div>
@@ -113,28 +106,28 @@
     <!-- Sección de Deportes -->
     <section id="deporte" class="section">
         <div class="container">
-            <h1 class="title"><a href="Deportes.html">Deportes</a></h1>
+            <h1 class="title"><a href="dvista/eportes.php">Deportes</a></h1>
             <div class="columns">
                 <div class="column">
-                    <a href="Deportes.html#deporte1" class="block has-text-black has-text-weight-bold">
+                    <a href="vista/deportes.php/#deporte1" class="block has-text-black has-text-weight-bold">
                         <h2 class="title is-5">Bravo se retira del fútbo</h2>
                         <p>Claudio Bravo, uno de los futbolistas chilenos más importantes, se retira a los 41 años...</p>
-                        <img src="bravo.jpeg" alt="Claudio Bravo se retira" class="mt-4">
+                        <img src="vista/image/bravo.jpeg" alt="Claudio Bravo se retira" class="mt-4">
                     </a>
                 </div>
                 
                 <div class="column">
-                    <a href="Deportes.html#deporte2" class="block has-text-black has-text-weight-bold">
+                    <a href="vista/deportes.php/#deporte2" class="block has-text-black has-text-weight-bold">
                         <h2 class="title is-5">Wanderers fuera de liguilla</h2>
                         <p>La clasificación sigue en movimiento. El equipo que termine en la segunda plaza jugará una final...</p>
-                        <img src="wanderito.jpeg" alt="Claudio Bravo se retira" class="mt-4">
+                        <img src="vista/image/wanderito.jpeg" alt="Claudio Bravo se retira" class="mt-4">
                     </a>
                 </div>
                 <div class="column">
-                    <a href="Deportes.html#deporte3" class="block has-text-black has-text-weight-bold">
+                    <a href="vista/deportes.php/#deporte3" class="block has-text-black has-text-weight-bold">
                         <h2 class="title is-5">Alejandro Tabilo y su ambicioso objetivo</h2>
                         <p>Alejandro Tabilo busca posicionarse entre los 15 mejores del ranking este año...</p>
-                        <img src="tabilo.jpeg" alt="Claudio Bravo se retira" class="mt-4">
+                        <img src="vista/image/tabilo.jpeg" alt="Claudio Bravo se retira" class="mt-4">
                     </a>
                 </div>
             </div>
@@ -144,27 +137,27 @@
     <!-- Sección de Negocios -->
     <section id="negocios" class="section">
         <div class="container">
-            <h1 class="title"><a href="negocios.html">Negocios</a></h1>
+            <h1 class="title"><a href="vista/negocios.php/">Negocios</a></h1>
             <div class="columns">
                 <div class="column">
-                    <a href="negocios.html#negocios1" class="block has-text-black has-text-weight-bold">
+                    <a href="vista/negocios.php/#negocios1" class="block has-text-black has-text-weight-bold">
                         <h2 class="title is-5">Tarifas eléctricas</h2>
                         <p>El gobierno ingresará un proyecto para triplicar el número de familias que acceden al subsidio eléctrico...</p>
-                        <img src="tarifa.jpeg" alt="Claudio Bravo se retira" class="mt-4">
+                        <img src="vista/image/tarifa.jpeg" alt="Claudio Bravo se retira" class="mt-4">
                     </a>
                 </div>
                 <div class="column">
-                    <a href="negocios.html#negocios2" class="block has-text-black has-text-weight-bold">
+                    <a href="vista/negocios.php/#negocios2" class="block has-text-black has-text-weight-bold">
                         <h2 class="title is-5">Mercado Libre y la denuncia contra los bancos</h2>
                         <p>Mercado Libre acusa a los bancos argentinos de cartelización y prácticas anticompetitivas...</p>
-                        <img src="mercadolibre.jpg" alt="Claudio Bravo se retira" class="mt-4">
+                        <img src="vista/image/mercadolibre.jpg" alt="Claudio Bravo se retira" class="mt-4">
                     </a>
                 </div>
                 <div class="column">
-                    <a href="negocios.html#negocios3" class="block has-text-black has-text-weight-bold">
+                    <a href="vista/negocios.php/#negocios3" class="block has-text-black has-text-weight-bold">
                         <h2 class="title is-5">Escasez de gasolina en Colombia</h2>
                         <p>Decenas de vuelos fueron cancelados por falta de combustible, afectando varias aerolíneas...</p>           
-                        <img src="gasoline.jpeg" alt="Claudio Bravo se retira" class="mt-4">
+                        <img src="vista/image/gasoline.jpeg" alt="Claudio Bravo se retira" class="mt-4">
                     </a>    
                 </div>
             </div>
