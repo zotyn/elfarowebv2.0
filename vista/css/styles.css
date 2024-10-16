@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+
+h1, h2, h3 {
+    font-weight: 700;
+    
+}
+
+p, a {
+    font-weight: 400;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+.tabs ul {
+    background-color: #3498db; /* Cambia el fondo de la barra de pestañas */
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/*
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+table td {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+table td:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+*/
+
+a {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #7ab1a6;
+    color: #31231e;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+footer.footer a:hover {
+    color: #3498db; /* Un tono de azul profesional al hacer hover */
+}
+footer.footer {
+    background-color: #2c3e50; /* Un tono gris oscuro */
+    color: #ecf0f1; /* Texto en un color claro */
+    padding: 2rem 1rem;
+}
+
+/*#reloj {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}*/
+
+form {
+    margin: 20px 0;
+}
+
+.description {
+    display: none; /* Ocultamos las descripciones por defecto */
+    padding-top: 10px;
+}
+
+
+
+.title {
+    transition: color 0.3s ease;
+}
+
+.title:hover {
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.title-section:hover {
+    cursor: pointer;
+    color: #007BFF;
+}
+
+section {
+    display: none; /* Ocultar secciones por defecto */
+    padding-top: 10px;
+}
+
+
+
+
+.articulo-miniatura {
+    padding: 1rem;
+    /*border: 1px solid #dbdbdb; /* Borde ligero */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave */
+}
+
+.articulo-miniatura:hover {
+    background-color: #f5f5f5; /* Cambia el color de fondo al pasar el cursor */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+}
+
+.articulo-miniatura h3:hover{
+    color: #007BFF;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.column:hover{
+    background-color: #e8eef5; /* Cambia el color de fondo al pasar el cursor */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave */
+
+}
+
+.column a:hover {
+    background-color: #f5f5f5; /* Cambia el color de fondo al hacer hover */
+    text-decoration: none; /* Elimina el subrayado en hover */
+}
